@@ -1,10 +1,20 @@
 const Nav = () => {
   return (
-    <nav className=" bg-[#D5DACE] sm:hidden py-4 text-[#343A3D] justify-center flex flex-row gap-x-5">
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#codewars">Codewars</a>
+    <nav className=" bg-[#D5DACE] sm:hidden py-4 text-[#343A3D] ">
+      <ul className="justify-center flex flex-row gap-x-5">
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#codewars">Codewars</a>
+        </li>
+      </ul>
     </nav>
   );
 };
