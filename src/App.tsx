@@ -1,4 +1,5 @@
 import Body from "./cv-components/body/body";
+import Footer from "./cv-components/footer/footer";
 import Header from "./cv-components/header/header";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         {" "}
         <Header />
         <Body />
+        <Footer />
       </div>
     </main>
   );
