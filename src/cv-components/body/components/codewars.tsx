@@ -1,18 +1,24 @@
 const Codewars = () => {
   return (
     <section id="codewars" className="py-6 bg-olive-400 px-4">
-      <h3 className="text-2xl pb-6 text-center">Codewars Example & Solution</h3>
+      <h3 className="text-2xl pb-6 text-center sm:text-3xl">
+        Codewars Example & Solution
+      </h3>
       <div>
-        <h3 className="text-base pb-4">
+        <h3 className="text-base p-4 sm:text-xl">
           Given an integer, return a string with dash '-' marks before and after
           each odd digit, but do not begin or end the string with a dash mark.
           Ex:
         </h3>
 
-        <p className="text-sm pl-4">274 -&gt '2-7-4'</p>
-        <p className="text-sm pl-4">6815 -&gt '68-1-5'</p>
-        <h3 className="text-2xl pb-6 text-center py-6">Solution</h3>
-        <div className="flex flex-col gap-y-2">
+        <p className="text-sm sm:text-xl pl-4">
+          Input: 274 -&gt; Output: '2-7-4'
+        </p>
+        <p className="text-sm sm:text-xl pl-4">
+          Input: 6815 -&gt; Output: '68-1-5'
+        </p>
+        <h3 className="text-2xl pb-6 text-center py-6 lg:text-3xl">Solution</h3>
+        <div className="flex flex-col gap-y-2 sm:text-xl sm:pl-10">
           <p>function dashatize(num) &#123;</p>
           <p className="pl-2">
             const digits = String(Math.abs(num)).split('');

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="p-6 py-8 bg-gray-300">
       <div>
-        <ul className="flex flex-col text-base gap-y-6">
+        <ul className="flex flex-col text-base sm:text-xl gap-y-6">
           <li className="flex items-center gap-4">
             <FaGithub />
             <a
@@ -23,8 +23,8 @@ const Footer = () => {
             <p>© {new Date().getFullYear()}</p>
           </li>
           <li className="flex items-center gap-4">
-            <img src={rslogo} alt="RS School logo" className="w-4" />
-            <a href="https://rs.school/courses/short-track">
+            <img src={rslogo} alt="RS School logo" className="w-4 sm:w-5" />
+            <a href="https://rs.school/courses/short-track" target="_blank">
               https://rs.school/courses/short-track
             </a>
           </li>

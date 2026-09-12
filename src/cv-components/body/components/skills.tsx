@@ -11,8 +11,10 @@ const Skills = () => {
       id="skills"
       className="bg-[#D5DACE] flex flex-col text-center py-6"
     >
-      <h2 className="text-[#2D1F1E] text-2xl">Skills</h2>
-      <ul className="grid grid-cols-2 w-fit mx-auto gap-x-8 gap-y-5 pt-8 text-l">
+      <h2 className="text-[#2D1F1E] text-2xl sm:text-3xl md:text-4xl">
+        Skills
+      </h2>
+      <ul className="grid grid-cols-2 w-fit mx-auto gap-x-8 sm:gap-x-18 gap-y-5  pt-8 min-[440px]:text-xl min-[440px]:gap-x-12 md:text-2xl md:gap-x-30">
         <li className="flex items-center gap-2">
           <FaCss3Alt />
           <span>CSS</span>

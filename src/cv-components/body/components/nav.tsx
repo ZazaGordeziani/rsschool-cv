@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
-    <nav className=" bg-[#D5DACE] sm:hidden py-4 text-[#343A3D] ">
-      <ul className="justify-center text-[14px] flex flex-row gap-x-3">
+    <nav className=" bg-[#D5DACE] min-[900px]:hidden py-4 text-[#343A3D] ">
+      <ul className="justify-center max-[361px]:text-[13px]  text-[14px] min-[440px]:text-base flex flex-row gap-x-3 sm:text-xl sm:gap-x-6 ">
         <li>
           <a href="#skills">Skills</a>
         </li>
@@ -15,7 +15,7 @@ const Nav = () => {
           <a href="#codewars">Codewars</a>
         </li>
         <li>
-          <a href="#codewars">Languages</a>
+          <a href="#languages">Languages</a>
         </li>
       </ul>
     </nav>
