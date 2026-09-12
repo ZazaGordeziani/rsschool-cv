@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="p-6 py-8 bg-gray-300">
       <div>
-        <ul className="flex flex-col text-base sm:text-xl gap-y-6">
+        <ul className="flex flex-col text-base sm:text-xl lg:text-2xl gap-y-6">
           <li className="flex items-center gap-4">
             <FaGithub />
             <a

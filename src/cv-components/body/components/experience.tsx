@@ -12,12 +12,12 @@ const Experience = () => {
           <h3 className="text-base sm:text-xl lg:text-2xl">
             Redberry Educational Project
           </h3>
-          <p className="text-sm sm:text-base">Spring 2026</p>
+          <p className="text-sm sm:text-base lg:text-xl">Spring 2026</p>
           <a
             href="https://github.com/ZazaGordeziani/Redberry-E-learning"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-x-2"
+            className="flex items-center gap-x-2 lg:text-xl"
           >
             <FaRegArrowAltCircleRight />
             Project link
@@ -27,12 +27,12 @@ const Experience = () => {
           <h3 className="text-base sm:text-xl lg:text-2xl">
             Redberry Educational Project
           </h3>
-          <p className="text-sm sm:text-base">Autumn 2025</p>
+          <p className="text-sm sm:text-base lg:text-xl">Autumn 2025</p>
           <a
             href="https://github.com/ZazaGordeziani/RedSeam-Clothing"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-x-2"
+            className="flex items-center gap-x-2 lg:text-xl"
           >
             <FaRegArrowAltCircleRight />
             Project link
@@ -42,20 +42,24 @@ const Experience = () => {
           <h3 className="text-base sm:text-xl lg:text-2xl">
             Freelance Logistics Support and Technical Assistance
           </h3>
-          <p className="text-sm sm:text-base">2022 - Present</p>
+          <p className="text-sm sm:text-base lg:text-xl">2022 - Present</p>
         </div>
         <div className="border rounded-2xl p-4 flex flex-col gap-y-2">
           <h3 className="text-base sm:text-xl lg:text-2xl">
             Network Development Manager at Cryptomat, Tbilisi
           </h3>
-          <p className="text-sm sm:text-base">September 2024 — December 2024</p>
+          <p className="text-sm sm:text-base lg:text-xl">
+            September 2024 — December 2024
+          </p>
         </div>
         <div className="border rounded-2xl p-4 flex flex-col gap-y-2">
           <h3 className="text-base sm:text-xl lg:text-2xl">
             Intern at Ministry of Economy and Sustainable Development of Georgia
             , Tbilisi{" "}
           </h3>
-          <p className="text-sm sm:text-base">June 2017 — December 2017</p>
+          <p className="text-sm sm:text-base lg:text-xl">
+            June 2017 — December 2017
+          </p>
         </div>
       </div>
     </section>

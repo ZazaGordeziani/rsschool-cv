@@ -5,20 +5,20 @@ const Codewars = () => {
         Codewars Example & Solution
       </h3>
       <div>
-        <h3 className="text-base p-4 sm:text-xl">
+        <h3 className="text-base p-4 sm:text-xl lg:text-2xl">
           Given an integer, return a string with dash '-' marks before and after
           each odd digit, but do not begin or end the string with a dash mark.
           Ex:
         </h3>
 
-        <p className="text-sm sm:text-xl pl-4">
+        <p className="text-sm sm:text-xl pl-4 lg:text-2xl">
           Input: 274 -&gt; Output: '2-7-4'
         </p>
-        <p className="text-sm sm:text-xl pl-4">
+        <p className="text-sm sm:text-xl pl-4 lg:text-2xl">
           Input: 6815 -&gt; Output: '68-1-5'
         </p>
         <h3 className="text-2xl pb-6 text-center py-6 lg:text-3xl">Solution</h3>
-        <div className="flex flex-col gap-y-2 sm:text-xl sm:pl-10">
+        <div className="flex flex-col gap-y-2 sm:text-xl sm:pl-10 lg:text-2xl">
           <p>function dashatize(num) &#123;</p>
           <p className="pl-2">
             const digits = String(Math.abs(num)).split('');
