@@ -4,6 +4,7 @@ const Nav = () => {
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
+      <a href="#codewars">Codewars</a>
     </nav>
   );
 };
